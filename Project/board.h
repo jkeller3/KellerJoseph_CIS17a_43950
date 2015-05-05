@@ -1,7 +1,7 @@
 /* 
  * File:   board.h
- * Author: rcc
- *
+ * Author: Joseph Keller
+ * Project 1 - CIS 17A - Connect Four
  * Created on May 4, 2015, 2:42 PM
  */
 

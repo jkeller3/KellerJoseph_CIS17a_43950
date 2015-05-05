@@ -1,7 +1,7 @@
 /* 
  * File:   player.h
- * Author: rcc
- *
+ * Author: Joseph Keller
+ * Project 1 - CIS 17A - Connect Four
  * Created on May 4, 2015, 2:19 PM
  */
 
@@ -9,7 +9,6 @@
 #define	PLAYER_H
 
 struct Stats{
-    string name;
     int wins;
     int losses;
     int draws;
