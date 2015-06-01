@@ -68,68 +68,17 @@ int main(int argc, char** argv) {
 
 void menu()
 {
-    cout<<"Type 1 for Problem 13.\n";
-    cout<<"Type 2 for Problem 13.\n";
-    cout<<"Type 3 for Problem 13.\n";
-    cout<<"Type 4 for Problem 13.\n";
-    cout<<"Type 5 for Problem 13.\n";
-    cout<<"Type 6 for Problem 14.\n";
-    cout<<"Type 7 for Problem 14.\n";
-    cout<<"Type 8 for Problem 14.\n";
-    cout<<"Type 9 for Problem 14.\n";
-    cout<<"Type 10 for Problem 14.\n";
+    cout<<"Type 1 for Problem 13.1\n";
+    cout<<"Type 2 for Problem 13.2\n";
+    cout<<"Type 3 for Problem 13.4\n";
+    cout<<"Type 4 for Problem 13.12\n";
+    cout<<"Type 5 for Problem 13.14\n";
+    cout<<"Type 6 for Problem 14.1\n";
+    cout<<"Type 7 for Problem 14.2\n";
+    cout<<"Type 8 for Problem 14.3\n";
+    cout<<"Type 9 for Problem 14.4\n";
+    cout<<"Type 10 for Chpt 14 Problem 4 Review\n";
     cout<<"Type 0 to exit\n";
-}
-
-
-//Problem 13.
-void problem1(){
-    
-}
-
-//Problem 13.
-void problem2(){
-    
-}
-
-//Problem 13.
-void problem3(){
-    
-}
-
-//Problem 13.
-void problem4(){
-    
-}
-
-//Problem 13.
-void problem5(){
-    
-}
-
-//Problem 14.
-void problem6(){
-    
-}
-
-//Problem 14.
-void problem7(){
-    
-}
-
-//Problem 14.
-void problem8(){
-    
-}
-
-//Problem 14.
-void problem9(){
-    
-}
-
-//Problem 14.
-void problem10(){
-    
 }
 
 int getN()
@@ -137,6 +86,81 @@ int getN()
     int inN;
     cin>>inN;
     return inN;
+}
+
+//Problem 13.1
+void problem1(){
+    cout<<"Name three different C++ classes that can be used to create "
+            "input streams.\n";
+    cout<<"fstream, ifstream, and istringstream. The first two are for"
+            " file IO, and the last one is for reading and writing"
+            " strings.\n\n";
+}
+
+//Problem 13.2
+void problem2(){
+    cout<<"Name three different C++ classes that can be used to create "
+            "output streams.\n";
+    cout<<"ftream and ofstream for file IO, and ostringstream for "
+            "reading and writing strings.\n\n";
+}
+
+//Problem 13.4
+void problem3(){
+    cout<<"Why is it important for a program to close an open file as soon "
+            "as it is done using the file? Give two reasons.\n";
+    cout<<"Information isn't written until the file is closed, prior to that"
+            " it is held in a buffer waiting.\n\n";
+}
+
+//Problem 13.12
+void problem4(){
+    cout<<"Write C++ statements to output the information in the two arrays "
+            "as a table of names and numbers.\n";
+    cout<<"\n\n";
+}
+
+//Problem 13.14
+void problem5(){
+    cout<<"Describe the purpose of the eof member function.\n";
+    cout<<"This member function returns true (nonzero) if the eofbit flag is"
+            " set; otherwise returns false. This is used to tell when "
+            "the file it is reading becomes empty.\n\n";
+}
+
+//Problem 14.1
+void problem6(){
+    cout<<"What is a recursive function's base case.\n";
+    cout<<"It is a subproblem that is simple enough to be solved directly. "
+            "This occurs when the breaking down process stops.\n\n";
+}
+
+//Problem 14.2
+void problem7(){
+    cout<<"What happens if a recursive function does not handle base cases"
+            " correctly?\n";
+    cout<<"\n\n";
+}
+
+//Problem 14.3
+void problem8(){
+    cout<<"What will the following program display?\n";
+    cout<<"10\n\n";
+}
+
+//Problem 14.4
+void problem9(){
+    cout<<"What is the difference between direct and indirect recursion.\n";
+    cout<<"Direct incursion is when a function directly calls itself. "
+            "Indirect incursion is when one function repeatedly "
+            "calls different function to continuously perform a task.\n\n";
+}
+
+//Chapter 14 Problem 4 Review
+void problem10(){
+    cout<<"The ______ of recursion is the number of times a function calls "
+            "itself\n";
+    cout<<"depth.\n\n";
 }
 
 void def(int inN)
