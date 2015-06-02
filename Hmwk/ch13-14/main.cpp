@@ -71,7 +71,7 @@ void menu()
     cout<<"Type 1 for Problem 13.1\n";
     cout<<"Type 2 for Problem 13.2\n";
     cout<<"Type 3 for Problem 13.4\n";
-    cout<<"Type 4 for Problem 13.12\n";
+    cout<<"Type 4 for Problem 13.6\n";
     cout<<"Type 5 for Problem 13.14\n";
     cout<<"Type 6 for Problem 14.1\n";
     cout<<"Type 7 for Problem 14.2\n";
@@ -113,11 +113,12 @@ void problem3(){
             " it is held in a buffer waiting.\n\n";
 }
 
-//Problem 13.12
+//Problem 13.6
 void problem4(){
-    cout<<"Write C++ statements to output the information in the two arrays "
-            "as a table of names and numbers.\n";
-    cout<<"\n\n";
+    cout<<"Which file open flag causes the contents of an existing file "
+            "to be discarded and the file size reduced to zero?\n";
+    cout<<"ios::trunc\n If the file being opened exists, its contents "
+            "are discarded and its size is truncated to zero.\n\n";
 }
 
 //Problem 13.14
@@ -139,7 +140,8 @@ void problem6(){
 void problem7(){
     cout<<"What happens if a recursive function does not handle base cases"
             " correctly?\n";
-    cout<<"\n\n";
+    cout<<"It will end up creating the subproblems wrong, and coming up "
+            "with something that is not what was intended.\n\n";
 }
 
 //Problem 14.3
